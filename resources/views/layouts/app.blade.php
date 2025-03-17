@@ -12,8 +12,8 @@
         <a href="/"><h1 class="text-xl font-bold">Brand</h1></a>
         <nav>
             <ul class="flex space-x-6">
-                <li><a href="/about" class="hover:text-blue-500">About Us</a></li>
-                <li><a href="/contact" class="hover:text-blue-500">Contact</a></li>
+                <li><a href="{{ route('about') }}" class="hover:text-blue-500">About Us</a></li>
+                <li><a href="{{ route('contact') }}" class="hover:text-blue-500">Contact</a></li>
             </ul>
         </nav>
     </div>
